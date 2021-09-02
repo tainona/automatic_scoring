@@ -1,7 +1,7 @@
 n = gets.to_i
 s = gets.chomp
 q = gets.to_i
-cnt = 
+cnt = 0
 q.times{
   t,a,b = gets.split.map(&:to_i)
   if t == 1

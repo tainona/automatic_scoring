@@ -117,7 +117,10 @@
          <td bgcolor="#ffffc0"><?php echo $decision ?></td>
       <?php  }elseif($decision=="WA"){ ?>
         <td bgcolor="#FFD699"><?php echo $decision ?></td>
+      <?php }else{?>
+        <td bgcolor="#EDA46C"><?php echo $decision ?></td>
       <?php } ?>
+
         <td><?php echo round($time) ?>ms <td><a href="#">詳細</a> </td>
       </tr>
       <?php $i =0; ?>
@@ -132,6 +135,8 @@
           <td bgcolor="#ffffc0">{{$d->decision}}</td>
        <?php  }elseif($d->decision=="WA"){ ?>
          <td bgcolor="#FFD699">{{$d->decision}}</td>
+       <?php }else{?>
+         <td bgcolor="#EDA46C">{{$d->decision}}</td>
        <?php } ?>
 
           <td>{{$d->elapsed_time}}ms</td><td><a href="#">詳細</a></td>

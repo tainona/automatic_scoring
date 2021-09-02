@@ -111,12 +111,14 @@ ex:
 <tr>
 <td><?php  date_default_timezone_set('Asia/Tokyo'); echo date("Y-m-d H:i:s"); ?> </td> <td><?php echo $problem ?></td> <td><?php echo $_POST["select"]; ?> </td>
 
-   <?php if($decision=="AC"){ ?>
-   <td bgcolor="#c0ffc0"><?php echo $decision ?></td>
- <?php }elseif($decision=="CE"){ ?>
-   <td bgcolor="#ffffc0"><?php echo $decision ?></td>
+<?php if($decision=="AC"){ ?>
+<td bgcolor="#c0ffc0"><?php echo $decision ?></td>
+<?php }elseif($decision=="CE"){ ?>
+<td bgcolor="#ffffc0"><?php echo $decision ?></td>
 <?php  }elseif($decision=="WA"){ ?>
-  <td bgcolor="#FFD699"><?php echo $decision ?></td>
+<td bgcolor="#FFD699"><?php echo $decision ?></td>
+<?php }else{?>
+<td bgcolor="#EDA46C"><?php echo $decision ?></td>
 <?php } ?>
   <td><?php echo round($time) ?>ms <td><a href="#">詳細</a> </td>
 </tr>
@@ -132,6 +134,8 @@ ex:
     <td bgcolor="#ffffc0">{{$d->decision}}</td>
  <?php  }elseif($d->decision=="WA"){ ?>
    <td bgcolor="#FFD699">{{$d->decision}}</td>
+ <?php }else{?>
+   <td bgcolor="#EDA46C">{{$d->decision}}</td>
  <?php } ?>
 
     <td>{{$d->elapsed_time}}ms</td><td><a href="#">詳細</a></td>

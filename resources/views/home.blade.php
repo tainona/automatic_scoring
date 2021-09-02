@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <link href="css/style.css" rel="stylesheet">
+                    
                     <link href="css/mypage.css" rel="stylesheet">
                       <header class="page-header">
                       <h1><a href="home"><img class="logo" src="/img/logo.png"></a></h1>
