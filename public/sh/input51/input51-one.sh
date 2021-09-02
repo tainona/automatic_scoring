@@ -1,5 +1,5 @@
-echo 4
-echo 'FLIP'
+echo 2
+echo "FLIP"
 echo 7
 echo 2 0 0
 echo 1 1 2

@@ -92,7 +92,7 @@ goto ex;
 
       $decision = "CE";
       goto ex;
-}elseif($output[0] == 2){
+}elseif($output[0] == 803.84){
 
 $decision = "AC";
 
@@ -119,7 +119,7 @@ ex:
     <?php  }elseif($decision=="WA"){ ?>
       <td bgcolor="#FFD699"><?php echo $decision ?></td>
     <?php } ?>
-      <td><?php echo round($time) ?>ms <td><a href="#">詳細</a> </td>
+      <td><?php echo round($time) ?>ms </td><td><a href="#">詳細</a> </td>
     </tr>
     <?php $i =0; ?>
 

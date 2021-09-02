@@ -79,13 +79,6 @@
          }
 
 		?>
-    <?php $problem = "2-4:季節を表示する" ?>
-		<table>
-		  <tr>
-  		    <th>提出日時</th> <th>問題</th> <th>言語</th> <th>結果</th> <th>実行時間</th> <th> </th>
-		  </tr>
-		  <tr>
-		  <td><?php  date_default_timezone_set('Asia/Tokyo'); echo date("Y-m-d H:i:s"); ?> </td> <td><?php echo $problem ?></td> <td><?php echo $_POST["select"]; ?> </td>  <td>
         <?php
     if($arr ==1 ){
 
@@ -99,7 +92,7 @@
 
           $decision = "CE";
           goto ex;
-    }elseif($output[0] == 2){
+    }elseif($output[0] == '夏'){
 
     $decision = "AC";
 
@@ -110,7 +103,9 @@
     ex:
 
     ?>
-      
+
+    <?php $problem = "2-4:季節を表示する" ?>
+
 
         <table>
         <tr>
@@ -126,7 +121,7 @@
         <?php  }elseif($decision=="WA"){ ?>
           <td bgcolor="#FFD699"><?php echo $decision ?></td>
         <?php } ?>
-          <td><?php echo round($time) ?>ms <td><a href="#">詳細</a> </td>
+          <td><?php echo round($time) ?>ms</td> <td><a href="#">詳細</a> </td>
         </tr>
         <?php $i =0; ?>
 

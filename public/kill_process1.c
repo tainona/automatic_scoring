@@ -11,7 +11,7 @@ static jmp_buf env;
 int system_with_timeout(const char *cmd, int timeout){
 	int rtn,status,exit_code;
 	static int child_pid;
-        char *cmd_for_execv[] = {"/bin/",NULL,NULL,NULL};
+        char *cmd_for_execv[] = {"/bin/ruby",NULL,NULL,NULL};
 	cmd_for_execv[1] = (char *)cmd;
 	if(sigsetjmp(env,1)){
 		/*タイムアウト*/

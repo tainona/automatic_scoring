@@ -93,7 +93,7 @@ goto ex;
 
       $decision = "CE";
       goto ex;
-}elseif($output[0] == 2){
+}elseif($output[0] == 12432 && $output[1] ==4&&$output[2]==3){
 
 $decision = "AC";
 

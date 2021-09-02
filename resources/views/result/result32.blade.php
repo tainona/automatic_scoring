@@ -93,7 +93,7 @@ goto ex;
 
       $decision = "CE";
       goto ex;
-}elseif($output[0] == 2){
+}elseif($output[0] == '*_*_*_*_'&& $output[1] ='_*_*_*_*' && $output[2] ='*_*_*_*_'){
 
 $decision = "AC";
 

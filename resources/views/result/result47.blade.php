@@ -93,7 +93,7 @@ goto ex;
 
       $decision = "CE";
       goto ex;
-}elseif($output[0] == 2){
+}elseif($output[0] == "inoue" &&$output[1] =="kawasaki" &&$output[2] =="maeda"&&$output[3] =="suzuki" &&$output[4] =="tanaka"){
 
 $decision = "AC";
 

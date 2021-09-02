@@ -174,7 +174,7 @@ public function result43()
   // ビューを返す
   return view('/result/result43', ['data' => $data]);
 }
-public function resul44t()
+public function result44()
 {
   // Frameworksモデルのインスタンス化
   $md = new Automatic_Scoring();
