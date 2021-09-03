@@ -23,13 +23,13 @@
       <p>実行時間制限:2sec/メモリ制限:1024MB</p>
       <div class="problem-description">
         <h3>問題文</h3>
-        コマンドライン引数で２つの数字A,Bを受け取り、前者の値が後者の何％であるか表示する。
+        コマンドライン引数で２つの数字<i>A,B</i>を受け取り、前者の値が後者の何％であるか表示する。
        </div>
        <div class="constreaint">
          <h3>制約</h3>
-         <p>A,Bは共に整数である。</p>
+         <p><i>A,B</i>は共に整数である。</p>
          <p>小数点以下は四捨五入。</p>
-         <p>1&nbsp;&#8806;&nbsp;A&nbsp;&#60;&nbsp;B&nbsp;&#8806;&nbsp;&nbsp;100<sup></sup></p>
+         <p>1&nbsp;&#8806;&nbsp;<i>A</i>&nbsp;&#60;&nbsp;<i>B</i>&nbsp;&#8806;&nbsp;&nbsp;100<sup></sup></p>
 
        </div>
       <div class="output-oneblock">

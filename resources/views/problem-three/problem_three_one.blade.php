@@ -23,14 +23,14 @@
       <p>実行時間制限:2sec/メモリ制限:1024MB</p>
       <div class="problem-description">
         <h3>問題文</h3>
-        相違なる整数 A, Bがあります。|A−K|=|B−K|となるような整数 Kを出力してください。
-        そのような整数が存在しなければ、代わりに IMPOSSIBLE を出力してください。
+        相違なる整数<i>A, B</i>があります。<i>|A−K|=|B−K|</i>となるような整数<i>K</i>を出力してください。
+        そのような整数が存在しなければ、代わりに <i>IMPOSSIBLE</i> を出力してください。
        </div>
        <div class="constreaint">
          <h3>制約</h3>
          <p>入力はすべて整数である。</p>
-         <p> 0&nbsp;&#8806;&nbsp;A, B&nbsp;&#8806;&nbsp;10<sup>9</sup></p>
-         <p>AとBは相違なる。</p>
+         <p> <i>0</i>&nbsp;&#8806;&nbsp;<i>A, B</i>&nbsp;&#8806;&nbsp;<i>10<sup>9</sup></i></p>
+         <p><i>A</i>と<i>B</i>は相違なる。</p>
        </div>
       <div class="output-oneblock">
         <p>入力例１</p>
