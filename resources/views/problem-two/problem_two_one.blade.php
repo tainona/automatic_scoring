@@ -91,7 +91,7 @@ $problem = '2-1:コマンド引数';
         </div>
       </form>
       <div class="footer">
-        <a href="/problems">>問題一覧</a>
+        <a href="/problem">>問題一覧</a>
       </div>
     </main>
     <footer>
