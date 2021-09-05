@@ -68,8 +68,7 @@ echo 12 32
 <br>
 
 ## デザイン
-競技プログラミングサイト「Atcoder」を参考にさせて頂きました。
-[Atcoder](https://atcoder.jp/)
+競技プログラミングサイト「[Atcoder](https://atcoder.jp/)」を参考にさせて頂きました。
 
 <br>
 
