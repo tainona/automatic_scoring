@@ -67,9 +67,9 @@ echo 12 32
 
 <br>
 
-##デザイン
+## デザイン
 競技プログラミングサイト「Atcoder」を参考にさせて頂きました。
-[Atcoder](https://atcoder.jp/)
+re[Atcoder](https://atcoder.jp/)
 
 <br>
 
